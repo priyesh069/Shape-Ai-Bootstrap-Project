@@ -27,21 +27,6 @@ anyone with zero experience on programming can learn.
 I enjoyed these 7 days, you can as well.
 
 
-<li><a href=
-
-
-
-<li><a href=
-
-
-
-<li><a
-
-href=
-
-
-
-be</a>
 
 <li><a href=
 
