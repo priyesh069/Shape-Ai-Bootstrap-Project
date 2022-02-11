@@ -29,17 +29,17 @@ I enjoyed these 7 days, you can as well.
 
 <li><a href=
 
-"https://in.linkedin.com/company/shapeai">LinkedIn</a>
+
 
 <li><a href=
 
-"https://www.instagram.com/shape.ai/?hl=en">Instagram</a>
+
 
 <li><a
 
 href=
 
-"https://www.youtube.com/channel/UCTUvDLTW9meuDXWcbmISPdA">YouTu
+
 
 be</a>
 
