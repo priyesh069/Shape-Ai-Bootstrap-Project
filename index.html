@@ -1,174 +1,190 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <link href="style.css" rel="stylesheet" type="text/css" />
-  </head>
-  <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-info">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="ATUL BHAGWAT PATIL">Navbar</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
+
+<head>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Portfolio</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<style>
+
+
+  .list-group-item-action {
+
+    width: 18%;
+    color: #495057;
+    text-align: center;
+    text-align: center;
+
+  }
+
+  .list-group {
+    display: -webkit-inline-box;
+    flex-direction: column;
+    padding-left: 0;
+    margin-bottom: 0;
+    border-radius: .25rem;
+  }
+
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border: 3px solid green;
+  }
+
+  .rotate {
+    transition: transform 1s ease;
+  }
+
+  .rotate.rotate-90 {
+    transform: rotate(360deg);
+  }
+
+  .btn-primary:hover {
+    background-color: #007bff;
+    box-shadow: 0 0.5rem 1rem rgba(0, 123, 255, 0.5);
+    transition: all 0.3s ease;
+  }
+</style>
+
+
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-info">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="https://github.com/priyesh069"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://github.com/priyesh069">Github</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.linkedin.com/in/atul-patil-6202676b">LinkedIn</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://priyesh069.blogspot.com/">Blog</a>
+          </li>
           </a>
-          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </li>
-      </ul>
-      
+        </ul>
+
+      </div>
     </div>
-  </div>
-</nav>
-    
+  </nav>
+
 
 
 
 
   <!-- Navbar -->
-  <nav class="navbar sticky-top navbar-expand-lg navbar-dark bg-">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">Atul </a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#hero">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#skills">My Skills</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#works">My Works</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#contact">Contact Me</a>
-        </li>
-      </ul>
-    </div>
-  </div>
-</nav>
-
-<main class="container mt-3">
-  <section id="hero" class="d-flex justify-content-sm-center justify-content-md-evenly align-items-center flex-column-reverse gap-3  flex-md-row">
-    <!-- Hero -->
-    <div class="d-flex justify-content-sm-center align-items-center flex-column justify-content-md-start align-items-md-start">
-      <h5>Hi!👋</h5>
-      <h1>I'm Atul</h1>
-      <p>A fullstack web developer!</p>
-      <button class="btn btn-primary btn-sm">Myresume 😎</button>
-    </div>  
-
-    <div class="d-md-none w-50 w-50">
-      <img src="A.jpg" alt="john doe" class="w-100 h-100 rounded-circle shadow" >
-    </div>
-    <div class="d-none d-md-block w-25 h-25 ">
-      <img src="https://images.unsplash.com/photo-1535713875002-d1d0cf377fde?ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8dXNlcnxlbnwwfHwwfHw%3D&ixlib=rb-1.2.1&w=1000&q=80" alt="john doe" class="w-100 h-100 rounded-circle shadow" >
-    </div>
-  </section>
-  <section id="skills" class="mt-5 p-4 ">
-  <!-- My skills -->
-  <h1 class="text-primary text-center">My Skill Set</h1>
-  <div class="mt-4 d-md-none d-flex justify-content-evenly">
-    <i class="fab fa-html5 fa-3x" style="color:#f4470b;"></i>
-    <i class="fab fa-css3-alt fa-3x text-primary"></i>
-    <i class="fab fa-bootstrap fa-3x" style="color:#730fef"></i>
-  </div>  
-  <div class="mt-4 d-none d-md-flex justify-content-evenly">
-    <i class="fab fa-html5 fa-7x" style="color:#f4470b;"></i>
-    <i class="fab fa-css3-alt fa-7x text-primary"></i>
-    <i class="fab fa-bootstrap fa-7x" style="color:#730fef"></i>
-  </div>  
-  </section>
-  <section id="works" class="mt-4 p-4 ">
-  <!-- My works -->
-  <h1 class="text-primary text-center">My Works</h1>
-  <div class="row">
-    <div class="col-sm col-md-4">
-  <div class="card mb-2">
-  <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Portfolio Website</h5>
-    <p class="card-text">Built an amazing responsive webiste with Bootstrap.</p>
-    <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
-  </div>
-</div>
-    </div>
-    <div class="col-sm col-md-4">
-  <div class="card mb-2">
-  <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Portfolio Website</h5>
-    <p class="card-text">Built an amazing responsive webiste with Bootstrap.</p>
-    <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
-  </div>
-</div>
-    </div>
-    <div class="col-sm col-md-4">
-  <div class="card mb-2">
-  <img src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" class="card-img-top" alt="...">
-  <div class="card-body">
-    <h5 class="card-title">Portfolio Website</h5>
-    <p class="card-text">Built an amazing responsive webiste with Bootstrap.</p>
-    <a href="#" class="btn btn-dark">View Source <i class="fab fa-github"></i></a>
-  </div>
-</div>
-    </div>
-    
-</div>
-  </section>
-  <section id="contact" class="mt-4 py-4">
-  <!-- Contact me -->
-  <h1 class="text-primary text-center">Contact Form</h1>
-<div class="row">
-  <div class="col-sm col-md-8">
-   <form>
-     <div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Email address</label>
-  <input type="email" required class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlTextarea1" class="form-label"> Your Message</label>
-  <textarea class="form-control" id="exampleFormControlTextarea1" required placeholder="enter your amazing message!" rows="3">
 
 
+  <main class="container mt-3">
+    <section id="hero"
+      class="d-flex justify-content-sm-center justify-content-md-evenly align-items-center flex-column-reverse gap-3  flex-md-row">
+      <!-- Hero -->
+      <div
+        class="d-flex justify-content-sm-center align-items-center flex-column justify-content-md-start align-items-md-start">
+        <h5>Hi!👋</h5>
+        <h1 class="rotate" id="my-heading">I'm Atul</h1>
+        <script>
+          const heading = document.getElementById('my-heading');
+          heading.addEventListener('click', () => {
+            heading.classList.toggle('rotate-90');
+          });
+        </script>
+        <p>A Software Tester!</p>
+        <button href="https://drive.google.com/file/d/1FsFWbUqjTbdk3bevVhWyNvw_pIVpiOu3/view?usp=share_link"
+          class="btn-primary:hover btn btn-primary btn-sm">My Resume 😎</button>
+      </div>
 
 
+      <div class="d-none d-md-block w-25 h-25 ">
+        <img src="A2.jpg" alt="ATUL" class=" list animate__bounceIn w-100 h-200 rounded-circle shadow">
+      </div>
+    </section>
+    <section id="skills" class="mt-5 p-4 ">
+      <!-- My skills -->
+      <h1 class="text-primary text-center ">My Skill Set</h1>
+      <div>
 
-</div>
+        <ul>
+
+          <p class="--bs-light-bg-subtle" align="center">
+          <div class="list-group">
+            <a href="#" class="list-group-item list-group-item-action list-group-item-dark">JAVA</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-primary">Selenium</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-secondary">TestNG</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-success">GIT</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-danger">UI-licious</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-warning">Automation</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-info">HTML</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-light">CSS</a>
+            <a href="#" class="list-group-item list-group-item-action list-group-item-dark">SQL</a>
+          </div>
+          </p>
+        </ul>
+      </div>
+    </section>
+    <section id="works" class="mt-4 p-4 ">
+      <!-- My works -->
+      <h1 class="text-primary text-center">My Works</h1>
+      <div class="row">
+        <div class="col-sm col-md-4">
+          <div class="card mb-2">
+            <img
+              src="https://ewig5qf9cgn.exactdn.com/wp-content/uploads/2021/03/Tutorial-How-to-Automate-with-Power-Automate-Desktop_831x542.jpg"
+              class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Automate The Noukri.com</h5>
+              <p class="card-text">Using this Selenium script user automate the process of application apply process.
+              </p>
+              <a href="https://github.com/priyesh069/Automate_Naukri.git" class="btn btn-dark center">View Source <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm col-md-4">
+          <div class="card mb-2">
+            <img src="https://github.com/ShapeAI/PYTHON-AND-DATA-ANALYTICS/blob/main/YOUTUBE%20THUMBNAIL.png?raw=true"
+              class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">BOOTSTRAP BOOTCAMP</h5>
+              <p class="card-text">learn a lot during these days and it was an amazing experience learning with SHAPEAI.
+              </p>
+              <a href="https://github.com/priyesh069/Shape-Ai-Bootstrap-Project.git" class="btn btn-dark center"> View
+                My Project <i class="fab fa-github"></i></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm col-md-4">
+          <div class="card mb-2">
+            <img
+              src="https://images.unsplash.com/photo-1488590528505-98d2b5aba04b?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80"
+              class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Project: Corona Virus Details</h5>
+              <p class="card-text">Built an amazing responsive webiste with Bootstrap.</p>
+              <a href="https://github.com/priyesh069/CoronaVirusDetails.git" class="btn btn-dark center">View Project <i
+                  class="fab fa-github"></i></a>
+            </div>
+          </div>
+    </section>
+
+    <!-- Contact me -->
 
 
+</body>
 
-
-
-
-    
-    
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
-  </body>
 </html>
